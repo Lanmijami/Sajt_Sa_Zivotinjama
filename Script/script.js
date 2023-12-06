@@ -70,6 +70,7 @@ function posalji() {
   document.getElementById('popUpHolder').style.display = 'none';
 
   if (input < 30) {
+    document.getElementById('zivotinja1').style.display = 'none';
     alert('Učili ste premalo danas :(');
   } else if (input < 60) {
     document.getElementById('zivotinja1').src = nizZivotinja[random];
