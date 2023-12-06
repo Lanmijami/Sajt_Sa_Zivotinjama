@@ -75,15 +75,12 @@ function posalji() {
   } else if (input < 60) {
     document.getElementById('zivotinja1').src = nizZivotinja[random];
     document.getElementById('zivotinja1').style.display = 'block';
-    alert('Učili ste manje od sat vremena i zaslužili ste nagradu :)');
   } else if (input < 120) {
     document.getElementById('zivotinja1').src = nizZivotinjaAg[random];
     document.getElementById('zivotinja1').style.display = 'block';
-    alert('Učili ste do dva sata i zaslužili ste dobru nagradu :)');
   } else {
     document.getElementById('zivotinja1').src = nizZivotinjaAu[random];
     document.getElementById('zivotinja1').style.display = 'block';
-    alert('Učili ste više od dva sata i zaslužili ste najbolju nagradu :))');
   }
 
   brojac = brojac + 1;
