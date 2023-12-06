@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/Style/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="Hero">
+      <button class="button" onclick="dodaj()">DODAJ ŽIVOTINJU</button>
+    </div>
+
+    <div class="Hero" id="hero2">
+      <img
+        src="/Img/dabar.png"
+        alt="pingvin"
+        id="zivotinja1"
+        class="zivotinja"
+      />
+    </div>
+    <div class="popUpHolder" id="popUpHolder">
+      <div class="popUp">
+        <h2>Unesi broj minuta koliko si učio:</h2>
+        <input type="text" id="input" autofocus />
+        <button id="submit" onclick="posalji()">Pošalji</button>
+      </div>
+    </div>
+    <script src="/Script/script.js"></script>
+  </body>
+</html>
